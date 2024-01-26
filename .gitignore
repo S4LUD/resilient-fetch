@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Visual Studio Code
+.vscode/
+
+# Compiled output
+/dist/
+
+# npm
+package-lock.json
