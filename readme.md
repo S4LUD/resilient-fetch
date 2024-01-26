@@ -1,6 +1,14 @@
-# Resilient Fetch
+# Resilient Fetch - Version 1.0.0
 
-`resilientFetch` is a customizable fetch function for handling HTTP requests with built-in resilience features such as timeout and retry attempts. It provides a convenient way to fetch data from APIs while handling various scenarios like network issues or slow responses.
+### Introduction
+
+Resilient Fetch is a powerful utility library designed to enhance your HTTP requests by providing built-in resilience features. It's especially useful when dealing with unreliable network conditions, ensuring your applications remain robust and responsive even in challenging environments.
+
+**Key Features:**
+
+- **Timeout Handling:** Set a maximum duration for your requests to prevent lengthy waits.
+- **Retry Mechanism:** Define the number of attempts for the library to retry the request in case of failure, ensuring a higher likelihood of successful data retrieval.
+- **Callback Support:** Utilize `onResponse` and `onError` callbacks for custom handling of responses and errors.
 
 ## Installation
 
