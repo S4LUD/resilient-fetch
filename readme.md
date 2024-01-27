@@ -1,6 +1,6 @@
 # Resilient Fetch - Version 1.0.0
 
-[![npm](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/resilient-fetch)
+[![npm](https://img.shields.io/npm/dt/resilient-fetch.svg?label=Downloads)](https://www.npmjs.com/package/resilient-fetch)[![npm](https://img.shields.io/npm/l/resilient-fetch.svg?label=License&color=brightgreen)](https://github.com/S4LUD/resilient-fetch/blob/main/LICENSE)
 
 ### Introduction
 
