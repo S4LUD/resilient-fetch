@@ -18,7 +18,7 @@ interface ResilientFetchError {
   message: string;
 }
 
-const resilientFetch = <T>(
+export const resilientFetch = <T>(
   url: string,
   options: RequestInit = {},
   customOptions: ResilientFetchOptions<T> = {}
