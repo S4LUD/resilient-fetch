@@ -1,5 +1,7 @@
 # Resilient Fetch - Version 1.0.0
 
+[![npm](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/resilient-fetch)
+
 ### Introduction
 
 Resilient Fetch is a powerful utility library designed to enhance your HTTP requests by providing built-in resilience features. It's especially useful when dealing with unreliable network conditions, ensuring your applications remain robust and responsive even in challenging environments.
