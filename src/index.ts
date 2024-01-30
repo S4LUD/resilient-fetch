@@ -1,11 +1,11 @@
-interface ResilientFetchOptions<T> {
+export interface ResilientFetchOptions<T> {
   timeout?: number;
   retryAttempts?: number;
   onResponse?: (response: Response) => Promise<void>;
   onError?: (error: ResilientFetchError) => void;
 }
 
-interface ResilientFetchResponse<T> {
+export interface ResilientFetchResponse<T> {
   loading: boolean;
   data: T | null;
   status: "success" | "error" | null;
@@ -13,7 +13,7 @@ interface ResilientFetchResponse<T> {
   headers?: Headers;
 }
 
-interface ResilientFetchError {
+export interface ResilientFetchError {
   status: number;
   message: string;
 }
