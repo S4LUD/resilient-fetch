@@ -57,6 +57,18 @@ export const resilientFetch = <T>(
   // Promise to handle actual fetch with retries
   const fetchPromise = new Promise<ResilientFetchResponse<T>>(
     async (resolve, reject) => {
+      // Initialize loading as true
+      const initialResponse: ResilientFetchResponse<T> = {
+        loading: true,
+        data: null,
+        status: null,
+        error: undefined,
+        headers: undefined,
+      };
+
+      // Resolve with the initial loading state
+      resolve(initialResponse);
+
       let attempts = 0;
 
       while (attempts < retryAttempts) {
